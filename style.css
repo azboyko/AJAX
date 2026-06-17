@@ -107,6 +107,14 @@ button:hover {
     box-shadow: 0 0 20px rgba(34, 212, 96, 0.4);
 }
 
+.btn_kurs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    
+}
+
 .table-wrapper {
     background: #0a1117;
     border: 1px solid #1f313a;

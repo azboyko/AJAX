@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+        </div>
+        <div>
+            <h1>Курс валют</h1>
+            <p>Офіційний курс НБУ</p>
+        </div>
+    </div>
+    <div class="controls">
+        <select name="currency" id="currency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="PLN">PLN</option>
+        </select>
+        <input type="date" name="startDate" id="startDate">
+        <input type="date" name="endDate" id="endDate">
+        <button id="getRate">
+            <span class="btn_kurs" >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+                Отримати курс
+            </span>
+        </button>
+    </div>
+    <div class="table-wrapper">
+        <div class="table-header">
+            <span>Дата</span>
+            <span>Курс</span>
+        </div>
+        <section id="result"></section>
+    </div>
+</div>
