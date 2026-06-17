@@ -6,14 +6,14 @@
 │   ├── services/            (Робота з мережею)
 │   │   ├── api.js           (Головна функція fetchCurrencyRates)
 │   │   └── templateLoader.js(Завантажувач HTML-файлів)
-│   └── utils/               (Математика, дати, фільтрація та рендер)
+│   └── utils/               
 │       ├── dateRange.js     (Генерація масиву дат)
 │       ├── dateParser.js    (Конвертація рядка в Date об'єкт)
 │       ├── dataSorter.js    (Сортування масиву)
 │       ├── trendCalculator.js (Розрахунок стрілочок)
 │       ├── dataFilter.js    (Очищення масиву від пустих відповідей)
 │       └── rowRenderer.js   (Збирання та наповнення HTML рядка)
-└── templates/               (HTML файли)
+└── templates/               
     ├── app.html
     ├── row.html
     ├── msg_loading.html

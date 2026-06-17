@@ -7,7 +7,6 @@
 
 body {
     min-height: 100vh;
-    /* Темно-зелений неоновий градієнт у правому верхньому кутку, як на фото */
     background: #071014;
     background-attachment: fixed;
     color: white;
@@ -84,7 +83,6 @@ input:focus {
     border-color: #1db954;
 }
 
-/* Стилізація іконки календаря всередині інпуту для сучасних браузерів */
 input::-webkit-calendar-picker-indicator {
     filter: invert(1);
     cursor: pointer;
@@ -184,7 +182,6 @@ button:hover {
     transition: transform 0.2s;
 }
 
-/* Кольори та прозорі бекграунди для стрілочок як на фото */
 .trend.up {
     background: rgba(34, 212, 96, 0.12);
     color: #22d460;
